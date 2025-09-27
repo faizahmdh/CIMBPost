@@ -1,0 +1,669 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		36407E2D2E87D78500165187 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36407E142E87D78400165187 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 36407E1B2E87D78400165187;
+			remoteInfo = CIMBPost;
+		};
+		36407E372E87D78500165187 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36407E142E87D78400165187 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 36407E1B2E87D78400165187;
+			remoteInfo = CIMBPost;
+		};
+		36407E6E2E87E07100165187 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36407E142E87D78400165187 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 36407E1B2E87D78400165187;
+			remoteInfo = CIMBPost;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		36407E1C2E87D78400165187 /* CIMBPost.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CIMBPost.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		36407E2C2E87D78500165187 /* CIMBPostTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CIMBPostTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		36407E362E87D78500165187 /* CIMBPostUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CIMBPostUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		36407E6A2E87E07100165187 /* CIMBPostAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CIMBPostAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		36407E1E2E87D78400165187 /* CIMBPost */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CIMBPost;
+			sourceTree = "<group>";
+		};
+		36407E2F2E87D78500165187 /* CIMBPostTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CIMBPostTests;
+			sourceTree = "<group>";
+		};
+		36407E392E87D78500165187 /* CIMBPostUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CIMBPostUITests;
+			sourceTree = "<group>";
+		};
+		36407E6B2E87E07100165187 /* CIMBPostAppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CIMBPostAppTests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		36407E192E87D78400165187 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36407E292E87D78500165187 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36407E332E87D78500165187 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36407E672E87E07100165187 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		36407E132E87D78400165187 = {
+			isa = PBXGroup;
+			children = (
+				36407E1E2E87D78400165187 /* CIMBPost */,
+				36407E2F2E87D78500165187 /* CIMBPostTests */,
+				36407E392E87D78500165187 /* CIMBPostUITests */,
+				36407E6B2E87E07100165187 /* CIMBPostAppTests */,
+				36407E1D2E87D78400165187 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		36407E1D2E87D78400165187 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				36407E1C2E87D78400165187 /* CIMBPost.app */,
+				36407E2C2E87D78500165187 /* CIMBPostTests.xctest */,
+				36407E362E87D78500165187 /* CIMBPostUITests.xctest */,
+				36407E6A2E87E07100165187 /* CIMBPostAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		36407E1B2E87D78400165187 /* CIMBPost */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36407E402E87D78500165187 /* Build configuration list for PBXNativeTarget "CIMBPost" */;
+			buildPhases = (
+				36407E182E87D78400165187 /* Sources */,
+				36407E192E87D78400165187 /* Frameworks */,
+				36407E1A2E87D78400165187 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				36407E1E2E87D78400165187 /* CIMBPost */,
+			);
+			name = CIMBPost;
+			packageProductDependencies = (
+			);
+			productName = CIMBPost;
+			productReference = 36407E1C2E87D78400165187 /* CIMBPost.app */;
+			productType = "com.apple.product-type.application";
+		};
+		36407E2B2E87D78500165187 /* CIMBPostTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36407E432E87D78500165187 /* Build configuration list for PBXNativeTarget "CIMBPostTests" */;
+			buildPhases = (
+				36407E282E87D78500165187 /* Sources */,
+				36407E292E87D78500165187 /* Frameworks */,
+				36407E2A2E87D78500165187 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				36407E2E2E87D78500165187 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				36407E2F2E87D78500165187 /* CIMBPostTests */,
+			);
+			name = CIMBPostTests;
+			packageProductDependencies = (
+			);
+			productName = CIMBPostTests;
+			productReference = 36407E2C2E87D78500165187 /* CIMBPostTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		36407E352E87D78500165187 /* CIMBPostUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36407E462E87D78500165187 /* Build configuration list for PBXNativeTarget "CIMBPostUITests" */;
+			buildPhases = (
+				36407E322E87D78500165187 /* Sources */,
+				36407E332E87D78500165187 /* Frameworks */,
+				36407E342E87D78500165187 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				36407E382E87D78500165187 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				36407E392E87D78500165187 /* CIMBPostUITests */,
+			);
+			name = CIMBPostUITests;
+			packageProductDependencies = (
+			);
+			productName = CIMBPostUITests;
+			productReference = 36407E362E87D78500165187 /* CIMBPostUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		36407E692E87E07100165187 /* CIMBPostAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36407E702E87E07200165187 /* Build configuration list for PBXNativeTarget "CIMBPostAppTests" */;
+			buildPhases = (
+				36407E662E87E07100165187 /* Sources */,
+				36407E672E87E07100165187 /* Frameworks */,
+				36407E682E87E07100165187 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				36407E6F2E87E07100165187 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				36407E6B2E87E07100165187 /* CIMBPostAppTests */,
+			);
+			name = CIMBPostAppTests;
+			packageProductDependencies = (
+			);
+			productName = CIMBPostAppTests;
+			productReference = 36407E6A2E87E07100165187 /* CIMBPostAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		36407E142E87D78400165187 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					36407E1B2E87D78400165187 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					36407E2B2E87D78500165187 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 36407E1B2E87D78400165187;
+					};
+					36407E352E87D78500165187 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 36407E1B2E87D78400165187;
+					};
+					36407E692E87E07100165187 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 36407E1B2E87D78400165187;
+					};
+				};
+			};
+			buildConfigurationList = 36407E172E87D78400165187 /* Build configuration list for PBXProject "CIMBPost" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 36407E132E87D78400165187;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 36407E1D2E87D78400165187 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				36407E1B2E87D78400165187 /* CIMBPost */,
+				36407E2B2E87D78500165187 /* CIMBPostTests */,
+				36407E352E87D78500165187 /* CIMBPostUITests */,
+				36407E692E87E07100165187 /* CIMBPostAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		36407E1A2E87D78400165187 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36407E2A2E87D78500165187 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36407E342E87D78500165187 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36407E682E87E07100165187 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		36407E182E87D78400165187 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36407E282E87D78500165187 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36407E322E87D78500165187 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36407E662E87E07100165187 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		36407E2E2E87D78500165187 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 36407E1B2E87D78400165187 /* CIMBPost */;
+			targetProxy = 36407E2D2E87D78500165187 /* PBXContainerItemProxy */;
+		};
+		36407E382E87D78500165187 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 36407E1B2E87D78400165187 /* CIMBPost */;
+			targetProxy = 36407E372E87D78500165187 /* PBXContainerItemProxy */;
+		};
+		36407E6F2E87E07100165187 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 36407E1B2E87D78400165187 /* CIMBPost */;
+			targetProxy = 36407E6E2E87E07100165187 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		36407E3E2E87D78500165187 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		36407E3F2E87D78500165187 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		36407E412E87D78500165187 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CIMBPost/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sd.CIMBPost;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		36407E422E87D78500165187 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CIMBPost/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sd.CIMBPost;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		36407E442E87D78500165187 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sd.CIMBPostTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CIMBPost.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CIMBPost";
+			};
+			name = Debug;
+		};
+		36407E452E87D78500165187 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sd.CIMBPostTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CIMBPost.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CIMBPost";
+			};
+			name = Release;
+		};
+		36407E472E87D78500165187 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sd.CIMBPostUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CIMBPost;
+			};
+			name = Debug;
+		};
+		36407E482E87D78500165187 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sd.CIMBPostUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CIMBPost;
+			};
+			name = Release;
+		};
+		36407E712E87E07200165187 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sd.CIMBPostAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CIMBPost.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CIMBPost";
+			};
+			name = Debug;
+		};
+		36407E722E87E07200165187 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sd.CIMBPostAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CIMBPost.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CIMBPost";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		36407E172E87D78400165187 /* Build configuration list for PBXProject "CIMBPost" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36407E3E2E87D78500165187 /* Debug */,
+				36407E3F2E87D78500165187 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36407E402E87D78500165187 /* Build configuration list for PBXNativeTarget "CIMBPost" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36407E412E87D78500165187 /* Debug */,
+				36407E422E87D78500165187 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36407E432E87D78500165187 /* Build configuration list for PBXNativeTarget "CIMBPostTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36407E442E87D78500165187 /* Debug */,
+				36407E452E87D78500165187 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36407E462E87D78500165187 /* Build configuration list for PBXNativeTarget "CIMBPostUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36407E472E87D78500165187 /* Debug */,
+				36407E482E87D78500165187 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36407E702E87E07200165187 /* Build configuration list for PBXNativeTarget "CIMBPostAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36407E712E87E07200165187 /* Debug */,
+				36407E722E87E07200165187 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 36407E142E87D78400165187 /* Project object */;
+}
